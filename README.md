@@ -43,9 +43,10 @@ The result is placed here: C:\Users\<USER>\Downloads\pa_stable_v190700_20210406\
 Open cmake gui on the folder C:\Users\<USER>\dev\btstack\port\windows-winusb 
 (Not C:/Users/<USER>/dev/btstack/port/libusb because it seems that the libusb port is tightly connected to Linux or OSX)
 
-in cmake-gui click configure, click generate
-A file called BTstack-libusb.sln is generated.
-Open BTstack-libusb.sln in visual studio by clicking the button "Open Project" in cmake-gui.
+in cmake-gui click configure then click generate. A file called BTstack-libusb.sln is generated.
+
+Open BTstack-libusb.sln in Visual Studio directly from the folder C:/Users/<USER>/dev/btstack/port/windows-winusb
+or by clicking the button "Open Project" in cmake-gui.
 
 Once the Solution is opened in Visual Studio, there are a lot of samples to try.
 
