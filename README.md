@@ -36,7 +36,7 @@ in cmake-gui:
 3. Click the "Open Project" button
 
 In Visual Studio, build the project portaudio_static.
-The result is placed here: C:\Users\&lt;USER&gt;\Downloads\pa_stable_v190700_20210406\portaudio\Debug\portaudio_static_x64.lib.
+The result is placed here: C:\Users\ &lt;USER&gt; \Downloads\pa_stable_v190700_20210406\portaudio\Debug\portaudio_static_x64.lib.
 
 # Compile the btstack Windows port
 
@@ -60,7 +60,7 @@ You can make one of the examples the startup project via the context menu.
 For every sample project in the solution, there are adjustments necessary to get the project to compile
 
 ### portaudio
-Inside the file C:\Users\&lt;User&gt;\dev\btstack\platform\posix\btstack_audio_portaudio.c replace
+Inside the file C:\Users\ &lt;User&gt; \dev\btstack\platform\posix\btstack_audio_portaudio.c replace
 
 ```
 #include <portaudio.h>
@@ -74,7 +74,7 @@ by
 
 ### Build Configuration (C/C++ Directories)
 
-* Edit the Include Directories and add C:\Users\&lt;User&gt;\Downloads\pa_stable_v190700_20210406\portaudio\include.
+* Edit the Include Directories and add C:\Users\ &lt;User&gt; \Downloads\pa_stable_v190700_20210406\portaudio\include.
 * Edit the Library Directories and add C:\Users\wolfg\Downloads\pa_stable_v190700_20210406\portaudio\Debug
 * Edit the Linker Inputs and change it to:
 
