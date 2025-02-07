@@ -40,7 +40,7 @@ The result is placed here: C:\Users\ &lt;USER&gt; \Downloads\pa_stable_v190700_2
 
 # Compile the btstack Windows port
 
-Open cmake gui on the folder C:\Users\&lt;USER&gt;\dev\btstack\port\windows-winusb 
+Open cmake gui on the folder C:\Users\ &lt;USER&gt; \dev\btstack\port\windows-winusb 
 (Not C:/Users/&lt;USER&gt;/dev/btstack/port/libusb because it seems that the libusb port is tightly connected to Linux or OSX)
 
 in cmake-gui click configure then click generate. A file called BTstack-libusb.sln is generated.
