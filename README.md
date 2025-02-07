@@ -27,8 +27,8 @@ Use setup-x86_64.exe to install libusb in a recent version.
 
 Download pa_stable_v190700_20210406.tgz from https://files.portaudio.com/download.html.
 Unzip that file and open cmake-gui.
-In cmake-gui open the folders: Browse Source: C:/Users/<USER>/Downloads/pa_stable_v190700_20210406/portaudio
-Where to build the binaries: C:/Users/<USER>/Downloads/pa_stable_v190700_20210406/portaudio
+In cmake-gui open the folders: Browse Source: C:/Users/&lt;USER&gt;/Downloads/pa_stable_v190700_20210406/portaudio
+Where to build the binaries: C:/Users/&lt;USER&gt;/Downloads/pa_stable_v190700_20210406/portaudio
 
 in cmake-gui:
 1. Click the "Configure" button
@@ -36,16 +36,16 @@ in cmake-gui:
 3. Click the "Open Project" button
 
 In Visual Studio, build the project portaudio_static.
-The result is placed here: C:\Users\<USER>\Downloads\pa_stable_v190700_20210406\portaudio\Debug\portaudio_static_x64.lib.
+The result is placed here: C:\Users\&lt;USER&gt;\Downloads\pa_stable_v190700_20210406\portaudio\Debug\portaudio_static_x64.lib.
 
 # Compile the btstack Windows port
 
-Open cmake gui on the folder C:\Users\<USER>\dev\btstack\port\windows-winusb 
-(Not C:/Users/<USER>/dev/btstack/port/libusb because it seems that the libusb port is tightly connected to Linux or OSX)
+Open cmake gui on the folder C:\Users\&lt;USER&gt;\dev\btstack\port\windows-winusb 
+(Not C:/Users/&lt;USER&gt;/dev/btstack/port/libusb because it seems that the libusb port is tightly connected to Linux or OSX)
 
 in cmake-gui click configure then click generate. A file called BTstack-libusb.sln is generated.
 
-Open BTstack-libusb.sln in Visual Studio directly from the folder C:/Users/<USER>/dev/btstack/port/windows-winusb
+Open BTstack-libusb.sln in Visual Studio directly from the folder C:/Users/&lt;USER&gt;/dev/btstack/port/windows-winusb
 or by clicking the button "Open Project" in cmake-gui.
 
 Once the Solution is opened in Visual Studio, there are a lot of samples to try.
@@ -60,7 +60,7 @@ You can make one of the examples the startup project via the context menu.
 For every sample project in the solution, there are adjustments necessary to get the project to compile
 
 ### portaudio
-Inside the file C:\Users\<User>\dev\btstack\platform\posix\btstack_audio_portaudio.c replace
+Inside the file C:\Users\&lt;User&gt;\dev\btstack\platform\posix\btstack_audio_portaudio.c replace
 
 ```
 #include <portaudio.h>
@@ -74,7 +74,7 @@ by
 
 ### Build Configuration (C/C++ Directories)
 
-* Edit the Include Directories and add C:\Users\<User>\Downloads\pa_stable_v190700_20210406\portaudio\include.
+* Edit the Include Directories and add C:\Users\&lt;User&gt;\Downloads\pa_stable_v190700_20210406\portaudio\include.
 * Edit the Library Directories and add C:\Users\wolfg\Downloads\pa_stable_v190700_20210406\portaudio\Debug
 * Edit the Linker Inputs and change it to:
 
